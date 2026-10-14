@@ -4,17 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a4ariketadadoabota"
+    namespace = "com.example.MikelL_4AriketaDadoaBota"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.a4ariketadadoabota"
+        applicationId = "com.example.MikelL_4AriketaDadoaBota"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
@@ -30,10 +28,12 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     buildFeatures {
         compose = true
     }
